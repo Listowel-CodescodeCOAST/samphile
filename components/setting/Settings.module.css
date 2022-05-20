@@ -1,0 +1,32 @@
+.setting {
+  width: 100%;
+  height: 65vh;
+  /* border: 1px solid black; */
+}
+.setting_top {
+  width: 100%;
+  height: 26vh;
+  padding-left: 3rem;
+  padding-top: 0.5rem;
+  background-color: rgba(0, 0, 255, 0.37);
+}
+.setting_top > h4 {
+  margin-top: -18px;
+}
+.settins_but {
+  height: 60vh;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.btu_left {
+  height: 60vh;
+  width: 20%;
+  padding-left: 5rem;
+  padding-top: 1.5rem;
+  /* border: 1px solid green; */
+}
+
+.btu_left > h4 {
+  display: flex;
+  align-items: center;
+}

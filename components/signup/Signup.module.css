@@ -1,0 +1,40 @@
+.main{
+    height: 120vh;
+    width: 100%;
+    background-image: url("../../public//images/pat1.jpg");
+}
+.register_card{
+    height: 120vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+     padding-top: 5rem;
+    background-color: rgba(0, 0, 0, 0.829);
+}
+.form { 
+    width: 25rem;
+    margin: 5px;
+    background: none;
+    color: white;
+    height: 2.6rem;
+    border: 0.5px solid white;
+    border-radius: 3px;
+}
+.sign > button{
+     background-color: rgba(127, 255, 212, 0.274);
+     width: 12rem;
+     border: none;
+     color: white;
+     border-radius: 3px;
+     margin-top: 8px;
+     height: 2.5rem;
+     padding-bottom: -8px;
+}
+.register >button{
+    width: 25rem;
+    height: 2.5rem;
+    border: 0.5px solid rgba(192, 192, 192, 0.637);
+    background: none;
+     border-radius: 3px;
+     color: white;
+}

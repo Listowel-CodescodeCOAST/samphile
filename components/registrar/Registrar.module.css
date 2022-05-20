@@ -1,0 +1,107 @@
+.profile {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile_side {
+background-color: black;
+  padding-left: 3rem;
+  margin-top: -1.1rem;
+  width: 20%;
+  height: 93vh;
+}
+.nav{
+  width: 100%;
+  height: 5.5rem;
+  display: flex;
+background-color: rgba(0, 0, 0, 0.993);
+}
+.nav_logo{
+  width: 35vw;
+  color: white;
+  padding-left: 8rem;
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  margin-top: 2rem;
+}
+.nav_logo > span{
+  font-family: serif;
+}
+.nav_middel{
+  width: 40vw;
+  color: white;
+  height: 3rem;
+  font-size: x-large;
+}
+.nav_logout{
+  width: 3vw;
+  height: 4rem;
+  color: white;
+  padding-top: 2rem;
+}
+.text{
+  margin-left: -1.6rem;
+  color: white;
+  height: 2rem;
+  font-size: large;
+  margin-top: 1.2rem;
+}
+.search{
+  margin-top: -3.5rem;
+  background: none;
+  color: white;
+  border: none;
+}
+.text > button {
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: none;
+  color: white;
+  border: none;
+}
+.icon {
+  padding-top: 9px;
+}
+.text {
+  padding: 10px;
+}
+.profile_side2 {
+  width: 70%;
+  height: 110vh;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+.top {
+  width: 70vw;
+  margin-top: 2rem;
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: azure;
+}
+.right {
+  padding-top: 1.5rem;
+  padding-left: 5rem;
+}
+.right > input{
+  background: none;
+  height: 2rem;
+  width: 25rem;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid white;
+  font-size: large;
+}
+.right > button > .icon{
+  border-radius: 5px;
+  border: none;
+  font-size: x-large;
+}
+.addpatient{
+  align-items: center;
+   height: 93vh;
+   width: 80%;
+   margin-top: -18.5px;
+}

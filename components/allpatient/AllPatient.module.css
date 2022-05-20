@@ -1,0 +1,22 @@
+.table_container {
+  background-color: #ffffff;
+}
+.container {
+  padding: 20px;
+  margin: auto;
+  height: 100vh;
+  width: 100%;
+}
+
+.container > tr {
+  margin: auto;
+}
+
+.td {
+  background-color: #d3dddd;
+  border: rgb(211, 219, 235);
+  padding: 10px;
+}
+.td > details {
+  background-color: #58797959;
+}
