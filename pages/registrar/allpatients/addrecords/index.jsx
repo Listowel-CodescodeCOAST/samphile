@@ -86,7 +86,6 @@ const AddRecords = () => {
                 disabled={isSubmitting}
                 className={styles.submit}
               >
-                {" "}
                 ADD RECORDS
               </button>
             </form>
