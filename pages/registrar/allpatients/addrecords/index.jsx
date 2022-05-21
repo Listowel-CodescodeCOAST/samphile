@@ -50,7 +50,7 @@ const AddRecords = () => {
               <p className={styles.error}> {errors.name}</p>
               <input
                 type="text"
-                name="hospitialName"
+                name="nameOfHospital"
                 id="nameOfHospital"
                 placeholder="Name 0f Hospitial"
                 value={value.name}
