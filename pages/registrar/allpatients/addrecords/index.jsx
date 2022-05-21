@@ -51,13 +51,13 @@ const AddRecords = () => {
               <input
                 type="text"
                 name="hospitialName"
-                id="name"
+                id="nameOfHospital"
                 placeholder="Name 0f Hospitial"
                 value={value.name}
                 onChange={handleChange}
                 onBlur={handleBlur}
               />
-              <p className={styles.error}> {errors.name}</p>
+              <p className={styles.error}> {errors.hospitialName}</p>
               <input
                 type="email"
                 name="email"
